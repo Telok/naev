@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<outfit name="Zebulon Space Mine">
+ <general>
+  <mass>1</mass>
+  <price>150</price>
+  <description>TODO mine description</description>
+  <gfx_store>empgrenade</gfx_store>
+ </general>
+ <specific type="ammo">
+  <gfx spin="0.3">empgrenade</gfx>
+  <sound>grenadefire</sound>
+  <sound_hit>empexplode</sound_hit>
+  <spfx_shield>ExpM</spfx_shield>
+  <spfx_armour>ExpM</spfx_armour>
+  <duration blowup="armour">70</duration>
+  <thrust>0</thrust>
+  <turn>0</turn>
+  <speed>0</speed>
+  <resist>0</resist>
+  <damage>
+   <type>impact</type>
+   <penetrate>25</penetrate>
+   <physical>185</physical>
+   <disable>1</disable>
+  </damage>
+  <ai>dumb</ai>
+ </specific>
+</outfit>

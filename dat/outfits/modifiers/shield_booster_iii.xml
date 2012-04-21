@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<outfit name="Shield Booster III">
+ <general>
+  <typename>Shield Energy Modifier</typename>
+  <slot>utility</slot>
+  <mass>28</mass>
+  <size>heavy</size>
+  <price>945000</price>
+  <description>A shield generator that feeds off the ship's main energy line. It will allow you to regenerate your shield faster and give you a small shield capacity boost, at the expense of draining some of the ship's energy.</description>
+  <gfx_store>shield</gfx_store>
+ </general>
+ <specific type="modification">
+  <cpu>28</cpu>
+  <shield>60</shield>
+  <shield_regen>2.8</shield_regen>
+  <energy_regen>-3.65</energy_regen>
+ </specific>
+</outfit>

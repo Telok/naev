@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<outfit name="Braking Thrusters">
+ <general>
+  <slot>utility</slot>
+  <mass>7</mass>
+  <price>85000</price>
+  <description>Braking thrusters are horrible abominations made from jury rigged afterburners, improperly re-routed plasma conduits, and lots of duct tape. They will slow a ship down, usually.</description>
+  <gfx_store>thruster</gfx_store>
+  <limit>afterburner</limit>
+ </general>
+ <specific type="afterburner">
+  <cpu>3</cpu>
+  <rumble>0.9</rumble>
+  <sound>afterburner</sound>
+  <sound_off>afb_disengage</sound_off>
+  <thrust>-99.9</thrust>
+  <speed>-99.9</speed>
+  <energy>80</energy>
+  <mass_limit>90</mass_limit>
+  <heatup>2</heatup>
+  <heat_base>400</heat_base>
+  <heat_cap>650</heat_cap>
+ </specific>
+</outfit>
